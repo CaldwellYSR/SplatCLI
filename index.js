@@ -1,14 +1,16 @@
 "use strict";
 
-let chalk = require('chalk');
-let clear = require('clear');
-let CLI = require('clui');
-let figlet = require('figlet');
-let inquirer = require('inquirer');
-let Preferences = require('preferences');
-let Spinner = CLI.Spinner;
-let GitHubAPI = require('github');
-let _ = require('lodash');
-let git = require('simple-git')();
-let touch = require('touch');
-let fs = require('fs');
+const chalk = require('chalk');
+const clear = require('clear');
+const CLI = require('clui');
+const figconst = require('figconst');
+const inquirer = require('inquirer');
+const Preferences = require('preferences');
+const Spinner = CLI.Spinner;
+const GitHubAPI = require('github');
+const _ = require('lodash');
+const git = require('simple-git')();
+const touch = require('touch');
+const fs = require('fs');
+
+
