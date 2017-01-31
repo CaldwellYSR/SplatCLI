@@ -1,16 +1,9 @@
 "use strict";
 
-const chalk = require('chalk');
-const clear = require('clear');
 const CLI = require('clui');
-const figlet = require('figlet');
 const inquirer = require('inquirer');
-const Preferences = require('preferences');
 const Spinner = CLI.Spinner;
-const GitHubAPI = require('github');
-const _ = require('lodash');
 let git = require('simple-git')();
-const touch = require('touch');
 const fs = require('fs');
 const files = require('./lib/files');
 const starterProject = 'https://github.com/SplatJS/splat-ecs-starter-project.git';
