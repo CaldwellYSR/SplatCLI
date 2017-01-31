@@ -1,6 +1,6 @@
 {
   "name": "splat-cli",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Basic CLI tools for creating a game with Splat-ECS. <splatjs.com>",
   "main": "index.js",
   "scripts": {
