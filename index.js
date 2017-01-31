@@ -18,7 +18,7 @@ function createGame(next) {
             type: 'input',
             name: 'name',
             message: 'Enter a name for your game: ',
-            default: args.name || args.n || files.getCurrentDirectoryBase(),
+            default: args.name || args.n,
             validate: (value) => {
                 if (value.length) {
                     return true;
@@ -30,8 +30,15 @@ function createGame(next) {
         {
             type: 'input',
             name: 'repo',
-            message: 'Git Repo: ',
-            default: args.r || args.repo
+            message: 'Git Repo:',
+            default: args.r || args.repo,
+            validate: (value) => {
+                if (value.length) {
+                    return true;
+                } else {
+                    return "Please enter a git repo url";
+                }
+            }
         }
     ];
 
