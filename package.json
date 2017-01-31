@@ -1,35 +1,35 @@
 {
-    "name": "splat-cli",
-    "version": "0.0.2",
-    "description": "Basic CLI tools for creating a game with Splat-ECS. <splatjs.com>",
-    "main": "index.js",
-    "scripts": {
-        "start": "node index.js",
-        "test": "mocha -w"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+ssh://git@github.com/CaldwellYSR/SplatCLI.git"
-    },
-    "keywords": [
-        "SplatJS",
-        "CLI"
-    ],
-    "bin": {
-        "splat": "./index.js"
-    },
-    "author": "Matthew Caldwell <caldwellysr@gmail.com>",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/CaldwellYSR/SplatCLI/issues"
-    },
-    "homepage": "https://github.com/CaldwellYSR/SplatCLI#readme",
-    "dependencies": {
-        "clui": "^0.3.1",
-        "github": "^8.1.1",
-        "inquirer": "^3.0.1",
-        "minimist": "^1.2.0",
-        "shelljs": "^0.7.6",
-        "simple-git": "^1.65.0"
-    }
+  "name": "splat-cli",
+  "version": "0.0.3",
+  "description": "Basic CLI tools for creating a game with Splat-ECS. <splatjs.com>",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/CaldwellYSR/SplatCLI.git"
+  },
+  "keywords": [
+    "SplatJS",
+    "CLI"
+  ],
+  "bin": {
+    "splat": "./index.js"
+  },
+  "author": "Matthew Caldwell <caldwellysr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CaldwellYSR/SplatCLI/issues"
+  },
+  "homepage": "https://github.com/CaldwellYSR/SplatCLI#readme",
+  "dependencies": {
+    "clui": "^0.3.1",
+    "github": "^8.1.1",
+    "inquirer": "^3.0.1",
+    "minimist": "^1.2.0",
+    "shelljs": "^0.7.6",
+    "simple-git": "^1.65.0"
+  }
 }
